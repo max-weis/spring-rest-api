@@ -1,4 +1,4 @@
-package dev.funsociety.restapi;
+package dev.funsociety.restapi.boundry.producer;
 
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringSerializer;
