@@ -1,5 +1,6 @@
 package dev.funsociety.restapi.entity;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,6 +16,7 @@ import javax.persistence.Table;
 @AllArgsConstructor
 @Entity
 @Table(name = "user")
+@Schema(example = "{ 'id': 4, 'name': 'Jason' }")
 public class User {
 
     @Id
